@@ -3,8 +3,13 @@ h1{
 	text-align: center;
 }
 
+h2{
+	text-align: center;
+}
+
 header{
 	background-color: #ebebeb;
+	margin: 5px;
 
 }
 
@@ -13,15 +18,19 @@ body{
 	font-size: 18px;
 	font-family: sans-serif;
 	color: #777;
-	margin: 0;
-	padding: 0;
 	width: 960px;
 
 }
 
 .section{
-	width: 495px;
+	/*width: 495px;*/
+	width: 50%;
 	background-color: #ebebeb;
+	float: left;
+	padding-bottom: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px;
 	
 }
 
@@ -32,15 +41,45 @@ body{
 	margin: 5px
 }
 
-section{
+.aside{
 	background-color: #ebebeb;
-	width: 400px;
+	/*width: 400px;*/
+	width: 46.95%;
 	float: left;
-	margin: 5px;
-
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-bottom: 338px;
 
 }
 
 .container{
 	width: 960px;
+}
+
+.article{
+	background-color: #777;
+	color: #ebebeb;
+	padding: 15px;
+
+}
+.h1s {
+	background-color: #ebebeb;
+	color: #777;
+	margin: 5px;
+	padding: 5px;
+}
+
+.p {
+	background-color: #ebebeb;
+	color: #777;
+	margin: 5px;
+	padding: 5px;
+}
+
+.footer{
+	padding: 20px;
+	text-align: center;
+	background-color: #ebebeb;
+	margin:; 5px;
+	clear: both;
 }
