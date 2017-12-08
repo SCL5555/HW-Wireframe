@@ -48,12 +48,13 @@ body{
 	float: left;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	padding-bottom: 338px;
+	padding-bottom: 345px;
 
 }
 
 .container{
 	width: 960px;
+	margin: 0 auto;
 }
 
 .article{
@@ -73,7 +74,7 @@ p{
 	background-color: #ebebeb;
 	color: #777;
 	margin: 5px;
-	padding: 20px;
+	padding: 25px;
 	text-align: center;
 }
 
